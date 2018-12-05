@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Great Slot Machine
+
+This little game was a project I made to test my learning progress with React. I attempted to do it all by myself, outside of the online course that I was taking.
+
+The player begins with $1000 in their wallet. They must add funds to the pool because each spin will cost $5. 
 
 ## Available Scripts
 

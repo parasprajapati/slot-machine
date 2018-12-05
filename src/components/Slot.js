@@ -1,10 +1,10 @@
 import React from 'react';
 
-import image1 from '../assets/img/1.png';
-import image2 from '../assets/img/2.png';
-import image3 from '../assets/img/3.png';
-import image4 from '../assets/img/4.png';
-import image5 from '../assets/img/5.png';
+import image1 from './assets/img/1.png';
+import image2 from './assets/img/2.png';
+import image3 from './assets/img/3.png';
+import image4 from './assets/img/4.png';
+import image5 from './assets/img/5.png';
 
 class Slot extends React.Component {
 	render() {

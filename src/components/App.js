@@ -6,6 +6,12 @@ import Slot from './Slot';
 import Message from './Message';
 import Score from './Score';
 
+import image1 from './assets/img/1.png';
+import image2 from './assets/img/2.png';
+import image3 from './assets/img/3.png';
+import image4 from './assets/img/4.png';
+import image5 from './assets/img/5.png';
+
 class App extends React.Component {
 	constructor(props) {
 		super(props);
@@ -70,7 +76,6 @@ class App extends React.Component {
 				clearInterval(timer2);
 				clearInterval(timer3);
 				if (this.checkResults(this.state.slot1, this.state.slot2, this.state.slot3)) {
-				// if (this.checkResults(0, 0, 0)) {
 					switch(this.state.slot1){
 						case 0:
 							this.setState({
@@ -176,7 +181,22 @@ class App extends React.Component {
 					<div className="col-md-10 ml-auto mr-auto">
 						<div className="card machine">
 							<div className="card-body">
-								<Jumbotron title="The Great Slot Machine"/>
+								<Jumbotron title="The Great Slot Machine">
+									<p className="mb-0">
+										<span>
+											3x&nbsp;<img className="help-image" src={image1} alt="diamond"/>&nbsp;=&nbsp;$10000&nbsp;|&nbsp;
+										</span>
+										<span>
+											3x&nbsp;<img className="help-image" src={image2} alt="money bag"/>&nbsp;=&nbsp;$500&nbsp;|&nbsp;
+										</span>
+										<span>
+											3x&nbsp;<img className="help-image" src={image3} alt="spade"/>&nbsp;=&nbsp;$100&nbsp;|&nbsp;
+										</span>
+										<span>
+											3x&nbsp;<img className="help-image" src={image4} alt="cherry"/><img className="help-image" src={image5} alt="lemon"/>&nbsp;=&nbsp;$50
+										</span>
+									</p>
+								</Jumbotron>
 								<div className="row">
 									<div className="col">
 										{message}

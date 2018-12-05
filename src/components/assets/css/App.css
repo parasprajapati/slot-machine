@@ -4,3 +4,8 @@ body {
 .machine {
 	background-color: rgb(66, 66, 66);
 }
+
+.help-image {
+	width:15px;
+	height:auto;
+}

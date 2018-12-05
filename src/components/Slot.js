@@ -11,8 +11,8 @@ class Slot extends React.Component {
 		const images = [image1, image2, image3, image4, image5];
 
 		return(
-			<div className="card">
-				<div className="card-body text-center">
+			<div className="ccard">
+				<div className="ccard-body text-center">
 					<img className="img-fluid" src={images[this.props.imageNumber]} alt="slot item"/>
 				</div>
 			</div>

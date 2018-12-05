@@ -1,3 +1,6 @@
 body {
-	background-color: 'black' !important;
+	background-color: maroon;
+}
+.machine {
+	background-color: rgb(66, 66, 66);
 }
